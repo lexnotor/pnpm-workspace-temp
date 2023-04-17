@@ -1,0 +1,20 @@
+{
+  "$schema": "https://codesandbox.io/p/schemas/tasks.json",
+  "setupTasks": ["pnpm i", "pnpm -r run build"],
+  "tasks": {
+    "install-dep": {
+      "name": "Install Dep",
+      "command": "pnpm i"
+    },
+    "build": {
+      "name": "Build app",
+      "command": "pnpm -r run build"
+    },
+    "default": {
+      "name": "Start a development server",
+      "command": "pnpm --parallel run dev",
+      "preview": { "port": 5173 },
+      "runAtStart": true
+    }
+  }
+}
