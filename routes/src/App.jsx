@@ -1,5 +1,6 @@
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import Agency from "@lexnotor/agency";
+import "@lexnotor/agency/style.css";
 import Bill from "@lexnotor/bill";
 
 const App = () => {

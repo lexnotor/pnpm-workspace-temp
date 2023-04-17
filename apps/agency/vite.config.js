@@ -10,5 +10,6 @@ export default defineConfig({
       entry: resolve(__dirname, "index.js"),
       formats: ["es"],
     },
+    rollupOptions: { external: ["react", "react-dom", "react-router-dom"] },
   },
 });
