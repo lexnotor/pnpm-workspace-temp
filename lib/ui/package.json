@@ -1,16 +1,16 @@
 {
-  "name": "@lexnotor/agency",
+  "name": "@lexnotor/ui",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "files": [
     "dist"
   ],
-  "main": "dist/agency.js",
-  "module": "dist/agency.js",
+  "main": "dist/ui.js",
+  "module": "dist/ui.js",
   "exports": {
     ".": {
-      "import": "./dist/agency.js"
+      "import": "./dist/ui.js"
     },
     "./style.css": {
       "import": "./dist/style.css"
@@ -23,22 +23,14 @@
   },
   "peerDependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.10.0"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^3.1.0",
-    "autoprefixer": "^10.4.14",
-    "postcss": "^8.4.22",
+    "vite": "^4.2.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.10.0",
-    "tailwindcss": "^3.3.1",
-    "vite": "^4.2.0"
-  },
-  "dependencies": {
-    "@lexnotor/ui": "workspace:^1.0.0"
+    "react-dom": "^18.2.0"
   }
 }
